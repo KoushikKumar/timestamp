@@ -1,0 +1,13 @@
+
+form{
+    width:800px;
+    margin:50px auto 0px auto;
+}
+#resultJson{
+    width: 270px;
+    margin: 50px auto;
+    border: 1px solid #00ff43;
+    padding: 25px;
+    box-sizing: border-box;
+    display: none;
+}

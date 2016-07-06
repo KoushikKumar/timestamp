@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+   <head>
+       <link rel="stylesheet" href="/public/css/index.css" type="text/css" />
+   </head> 
+   <body>
+      <div class="container">
+            <h1 class="header" style="text-align:center">
+                Get Natural and Unix Timestamp
+            </h1>
+            <h3>Example usage:</h3>
+            <code>https://timestamp-ms.herokuapp.com/December%2015,%202015</code><br>
+            <code>https://timestamp-ms.herokuapp.com/1450137600</code>
+            <p>You can also enter the url in the below input box</p>
+            <h3>Example output:</h3>
+            <code>
+                {
+                  "unix": 1450137600,
+                  "natural": "December 15, 2015"
+                }
+            </code>
+        </div>
+       <form method='POST'>
+            <input id = 'urlInput' type="text" name="urlInput" placeholder="http://timestamp-koushikkumarv.c9users.io/December%2015,%202015" size="100"/>
+            <input id="submitButton" type="button" value="Submit"/>
+        </form>
+        <pre id="resultJson"></pre>
+        <script type="text/javascript" src="/controllers/clickController.client.js"></script>
+   </body>
+</html>
+
+
