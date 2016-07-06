@@ -12,5 +12,5 @@ app.use('/controllers', express.static(process.cwd() + '/app/controllers'));
 routes(app);
 
 app.listen(port,function(){
-  console.log('listening to '+port);
+  console.log('listening to '+ port);
 })
